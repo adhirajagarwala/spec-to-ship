@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+  background: linear-gradient(180deg, #f8f1e5, #efe0c5);
+  color: #1f2937;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  padding: 32px;
+}
+
+textarea,
+pre {
+  width: 100%;
+  min-height: 320px;
+  padding: 16px;
+  border-radius: 16px;
+  border: 1px solid rgba(31, 41, 55, 0.12);
+  background: rgba(255, 255, 255, 0.8);
+}
+
+button {
+  margin-top: 16px;
+  padding: 12px 18px;
+  border: 0;
+  border-radius: 999px;
+  background: #92400e;
+  color: white;
+}

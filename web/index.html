@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spec to Ship</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main>
+      <section>
+        <h1>Spec to Ship</h1>
+        <p>Paste raw notes and turn them into a starter PRD and task list.</p>
+        <textarea id="notes" rows="10">Build an approval inbox for maintainers
+Need better triage visibility
+Must keep a human in the loop</textarea>
+        <button id="generate">Generate Plan</button>
+      </section>
+      <section>
+        <pre id="output"></pre>
+      </section>
+    </main>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>
